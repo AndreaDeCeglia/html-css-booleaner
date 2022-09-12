@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue; 
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    background-size: contain;
+    padding-top: 5%;
+}
+
+.logo{
+    width: 80%;
+    margin: auto;
+}
+
+.img-logo{
+    width: 20%;
+}
