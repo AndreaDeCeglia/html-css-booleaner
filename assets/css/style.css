@@ -12,7 +12,7 @@ header {
     padding-top: 5%;
 }
 
-.logo, main{
+.logo, main, footer{
     width: 80%;
     margin: auto;
 }
@@ -53,6 +53,10 @@ th{
 
 table{
     border-spacing: 0;
+}
+
+#table-explanation{
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 
@@ -64,3 +68,23 @@ thead{
 #row1, #row3{
     background-color: aqua;
 }
+
+ul{
+    list-style-position: inside;
+}
+
+h4{
+    margin-bottom: 1%;
+}
+
+.container {
+    position: relative;
+    color: white;
+  }
+
+  h3{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
